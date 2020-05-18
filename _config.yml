@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: gr0zz-blerg
+description: "A place for security stuff from gr0zz/ 0xwukong"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "gr0zz"
+  email: "name@example.com"
+  url: "https://gr0zz.github.io/blog"
 
 baseurl: /
 
@@ -23,10 +23,9 @@ defaults:
 
 future: true
 plugins:
-  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
-year : "2020"
+owner : "gr0zz"
+year : "2077"

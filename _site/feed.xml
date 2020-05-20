@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>gr0zz Security Stuff</title>
+		<description>Security Stuff</description>
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Example</title>
+				<description>&lt;p&gt;name format: year-month-day-title-of-article&lt;/p&gt;
+</description>
+				<pubDate>Tue, 19 May 2020 00:00:00 -0400</pubDate>
+				<link>/2020/05/Example/</link>
+				<guid isPermaLink="true">/2020/05/Example/</guid>
+			</item>
+		
+	</channel>
+</rss>

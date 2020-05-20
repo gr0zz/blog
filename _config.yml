@@ -1,31 +1,33 @@
-title: gr0zz-blerg
-description: "A place for security stuff from gr0zz/ 0xwukong"
-author:
-  name: "gr0zz"
-  email: "name@example.com"
-  url: "https://gr0zz.github.io/blog"
+# Jekyll configuration
 
-baseurl: /
+name: gr0zz Security Stuff
+description: Security Stuff 
 
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 3
-paginate_path: /page/:num/
+# Url is currently only used only for the RSS feed in feed.xml
+#url: https://gr0zz.github.io/blog/
+url: http://localhost:4000
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
+baseurl: '/'
 
-future: true
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+author: 0xWukong
+copyright: 2077
 
-# Custom variables
-owner : "gr0zz"
-year : "2077"
+social:
+  github: gr0zz 
+  rss: feed.xml
+
+
+permalink: /:year/:month/:title/
+
+# Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
+#paginate: 3
+
+#highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: true
+
+exclude: ['README.md', 'LICENSE']

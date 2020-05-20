@@ -1,11 +1,11 @@
 # Jekyll configuration
 
-name: gr0zz Security Stuff
-description: Security Stuff 
+name: 0xWukong Blerg about that sweet hacking shit.
+description: I'm a noob take my writing lightly. Hopefull you learn something. 
 
 # Url is currently only used only for the RSS feed in feed.xml
-#url: https://gr0zz.github.io/blog/
-url: http://localhost:4000
+url: https://gr0zz.github.io/blog/
+#url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: '/'

@@ -5,4 +5,5 @@ title: About
 ---
 
 # Some info 
-...about how cool you are ;)
+I'm gr0zz. I post securty stuff. It'll mostly be HTB and THM writeups. Also probably some workflow configs.
+[twitter](https://twitter.com/0xWukong)

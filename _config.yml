@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: 0xWukong's Blerg about that sweet hacking shit.
+name: gr0zz's Blerg about that sweet hacking shit.
 description: I'm a noob take my writing lightly. Hopefull you learn something. 
 
 # Url is currently only used only for the RSS feed in feed.xml
@@ -10,7 +10,7 @@ url: https://gr0zz.github.io/blog/
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: '/'
 
-author: 0xWukong
+author: gr0zz
 copyright: 2077
 
 social:

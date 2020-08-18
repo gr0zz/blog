@@ -8,7 +8,7 @@ url: http://gr0zz.github.io/blog
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
-baseurl: '/'
+baseurl: '/blog'
 
 author: gr0zz
 copyright: 2077

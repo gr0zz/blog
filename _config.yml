@@ -1,10 +1,10 @@
 # Jekyll configuration
 
-name: gr0zz's Blerg about that sweet hacking shit.
-description: I'm a noob take my writing lightly. Hopefull you learn something. 
+name: gr0zz's Security Stuff and Things. 
+description: Human
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: https://gr0zz.github.io/blog/
+url: http://gr0zz.github.io/blog
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
@@ -13,10 +13,33 @@ baseurl: '/'
 author: gr0zz
 copyright: 2077
 
+share:
+  facebook: false 
+  twitter: true
+  gplus: false 
+  linkedin: false 
+  pinterest: false
+  email: false
+
 social:
   github: gr0zz 
+  stackoverflow: ''
+  linkedin:
+  instagram: ''
+  lastfm: ''
   rss: feed.xml
 
+# Google Analytics key, leave blank to ignore
+google_analytics_key:
+# Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
+yandex_metrica:
+
+
+# Set this to your disqus shortname to enable comments. Note that the 'comments'
+# setting below must also be true. Individual posts can override 'comments' to
+# disable on a post-by-post basis
+disqus: streetturtle
+comments: false
 
 permalink: /:year/:month/:title/
 

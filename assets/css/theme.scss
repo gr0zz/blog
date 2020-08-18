@@ -158,6 +158,23 @@ ul.share-buttons {
 }
 
 //********************************************************
+//                    Sidebar
+//********************************************************
+.sidebar li {
+  margin-top: .7em;
+  line-height: 1em;
+}
+ul.sideBarTags {
+  list-style: none;
+  li:before {
+    content: '\f02b';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+  }
+}
+
+//********************************************************
 //                    Post
 //********************************************************
 h2.post-title {
@@ -165,7 +182,6 @@ h2.post-title {
   text-align: left;
 }
 div.post-meta {
-  z-index: 1;
   border-width: 1px 0;
   border-color: #666666;
   border-style: solid;
@@ -220,8 +236,7 @@ blockquote.warning p{
   font-style: normal;
   content: "\f06a";
   font-size: 2em;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
+  font-family: FontAwesome;
   left: 0;
   position:absolute;
   top: 0;
